@@ -11,8 +11,11 @@
   <body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
     <header class="bg-teal-700 text-white sticky top-0 z-10">
       <section class="max-w-4xl mx-auto p-4 flex justify-between items-center">
-        <h1 class="text-3xl font-medium">
-          <a href="#hero">🚀 Acme Rockets</a>
+        <h1 class="text-xl font-medium">
+          <!-- <a href="#hero">🚀 Acme Rockets</a> -->
+          <a href="#hero">
+            <img src="./img/흥사단 logo 100.png" alt="" />고국방문 프로그램
+          </a>
         </h1>
         <div>
           <button
@@ -25,9 +28,10 @@
             ></div>
           </button>
           <nav class="hidden md:block space-x-8 text-xl" aria-label="main">
-            <a href="#rockets" class="hover:opacity-90">Our Rockets</a>
-            <a href="#testimonials" class="hover:opacity-90">Testimonials</a>
-            <a href="#contact" class="hover:opacity-90">Contact Us</a>
+            <a href="#intro" class="hover:opacity-90">소개사</a>
+            <a href="#rockets" class="hover:opacity-90">세부일정</a>
+            <a href="#testimonials" class="hover:opacity-90">격려사</a>
+            <a href="#contact" class="hover:opacity-90">참가신청</a>
           </nav>
         </div>
       </section>
@@ -65,35 +69,88 @@
     <main class="max-w-4xl mx-auto">
       <section
         id="hero"
-        class="flex flex-col-reverse justify-center sm:flex-row p-6 items-center gap-8 mb-12 scroll-mt-40 widescreen:section-min-height tallscreen:section-min-height"
+        class="flex flex-col-reverse justify-center sm:flex-row p-6 items-start gap-8 mb-12 scroll-mt-40 widescreen:section-min-height tallscreen:section-min-height"
       >
         <article class="sm:w-1/2">
           <h2
-            class="max-w-md text-4xl font-bold text-center sm:text-5xl sm:text-left text-slate-900 dark:text-white"
+            class="max-w-md text-3xl font-bold text-left sm:text-3xl sm:text-left text-slate-900 dark:text-white"
           >
-            We Boldly Go
             <span class="text-indigo-700 dark:text-indigo-300"
-              >Where No Rocket</span
+              >프로그램 개요</span
             >
-            Has Gone Before...
             <p
-              class="max-w-md text-2xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400"
+              class="max-w-md text-2xl mt-4 text-left sm:text-left text-slate-700 dark:text-slate-400"
             >
-              We're building rockets for the next century today. From the Moon
-              to Mars, Jupiter and beyond...
+              &#8226; 일정: 2025.08.04 ~ 24 (3주)
             </p>
             <p
-              class="max-w-md text-2xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400"
+              class="max-w-md text-2xl mt-2 text-left sm:text-left text-slate-700 dark:text-slate-400"
             >
-              Think Acme Rockets.
+              &#8226; 참가비: $3,500
+            </p>
+            <p
+              class="max-w-md text-2xl mt-2 text-left sm:text-left text-slate-700 dark:text-slate-400"
+            >
+              &#8226; 인원: 40 명
+            </p>
+            <p
+              class="max-w-md text-2xl mt-2 text-left sm:text-left text-slate-700 dark:text-slate-400"
+            >
+              &#8226; 주관: 흥사단 뉴저지지부
+            </p>
+            <p
+              class="max-w-md text-2xl mt-2 text-left sm:text-left text-slate-700 dark:text-slate-400"
+            >
+              &#8226; 후원: 광복회 외
+            </p>
+            <br />
+            <p
+              class="max-w-md text-2xl mt-2 text-left sm:text-left text-slate-700 dark:text-slate-400"
+            >
+              &#8226; 참가신청: to_whom@email.com
             </p>
           </h2>
         </article>
-        <img class="w-1/2" src="./img/rocketdab.png" alt="Rocket Dab" />
+        <img class="w-1/2" src="./img/도산.png" alt="Rocket Dab" />
       </section>
 
       <hr class="mx-auto bg-black dark:bg-white w-1/2" />
 
+      <section
+        id="intro"
+        class="flex flex-col-reverse justify-center sm:flex-row p-6 items-start gap-8 mb-12 scroll-mt-40 widescreen:section-min-height tallscreen:section-min-height"
+      >
+        <article class="sm:w-1/2">
+          <h2
+            class="max-w-md text-3xl font-bold text-left sm:text-3xl sm:text-left text-slate-900 dark:text-white"
+          >
+            <span class="text-indigo-700 dark:text-indigo-300">소개사</span>
+            <p
+              class="max-w-md text-2xl mt-4 text-left sm:text-left text-slate-700 dark:text-slate-400"
+            >
+              &#8226; 본인 (뉴저지 지부장님) 소개
+            </p>
+            <p
+              class="max-w-md text-2xl mt-2 text-left sm:text-left text-slate-700 dark:text-slate-400"
+            >
+              &#8226; 프로그램 취지
+            </p>
+            <p
+              class="max-w-md text-2xl mt-2 text-left sm:text-left text-slate-700 dark:text-slate-400"
+            >
+              &#8226; 비전
+            </p>
+            <p
+              class="max-w-md text-2xl mt-2 text-left sm:text-left text-slate-700 dark:text-slate-400"
+            >
+              &#8226; 당부의 말씀
+            </p>
+          </h2>
+        </article>
+        <img class="w-1/2" src="./img/Java.gif" alt="Rocket Dab" />
+      </section>
+
+      <hr class="mx-auto bg-black dark:bg-white w-1/2" />
       <section
         id="rockets"
         class="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height"
@@ -101,73 +158,64 @@
         <h2
           class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white"
         >
-          Our Rockets
+          세부 일정
         </h2>
         <ul
           class="list-none mx-auto my-12 flex flex-col sm:flex-row items-center gap-8"
         >
           <li
-            class="w-2/3 sm:w-5/6 flex flex-col items-center border boder-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl"
+            class="w-2/3 sm:w-5/6 flex flex-col items-center border border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl"
           >
-            <img src="./img/rocketman.png" alt="Explorer" class="w-1/2 mb-6" />
-            <h3 class="text-3xl text-center text-slate-900 dark:text-white">
-              Explorer
+            <h3 class="text-2xl text-center text-slate-900 dark:text-white">
+              Day 1
             </h3>
+            <img
+              src="./img/도산 안창호 기념관.jpg"
+              alt="Explorer"
+              class="w-1/2 mb-6"
+            />
+
             <p
-              class="hidden sm:block text-3xl text-center mt-2 text-slate-500 dark:text-slate-400"
+              class="hidden sm:block text-xl text-center mt-2 text-slate-500 dark:text-slate-400"
             >
-              $
+              도산 안창호 기념관
             </p>
+          </li>
+          <li
+            class="w-2/3 sm:w-5/6 flex flex-col items-center border border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl"
+          >
+            <h3 class="text-2xl text-center text-slate-900 dark:text-white">
+              Day 2
+            </h3>
+            <img
+              src="./img/서대문형무소역사관.webp"
+              alt="Explorer"
+              class="w-1/2 mb-6"
+            />
+
             <p
-              class="sm:hidden text-2xl text-center mt-2 text-slate-500 dark:text-slate-400"
+              class="hidden sm:block text-xl text-center mt-2 text-slate-500 dark:text-slate-400"
             >
-              Affordable Exploration
+              서대문 형무소 역사관
             </p>
           </li>
 
           <li
-            class="w-2/3 sm:w-5/6 flex flex-col items-center border boder-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl"
+            class="w-2/3 sm:w-5/6 flex flex-col items-center border border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl"
           >
+            <h3 class="text-2xl text-center text-slate-900 dark:text-white">
+              Day 3
+            </h3>
             <img
-              src="./img/rocketride.png"
-              alt="Adventurer"
+              src="./img/유관순 기념관.jpg"
+              alt="Explorer"
               class="w-1/2 mb-6"
             />
-            <h3 class="text-3xl text-center text-slate-900 dark:text-white">
-              Adventurer
-            </h3>
-            <p
-              class="hidden sm:block text-3xl text-center mt-2 text-slate-500 dark:text-slate-400"
-            >
-              $$
-            </p>
-            <p
-              class="sm:hidden text-2xl text-center mt-2 text-slate-500 dark:text-slate-400"
-            >
-              Best Selling Rocket!
-            </p>
-          </li>
 
-          <li
-            class="w-2/3 sm:w-5/6 flex flex-col items-center border boder-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl"
-          >
-            <img
-              src="./img/rocketlaunch.png"
-              alt="Infinity"
-              class="w-1/2 mb-6"
-            />
-            <h3 class="text-3xl text-center text-slate-900 dark:text-white">
-              Infinity
-            </h3>
             <p
-              class="hidden sm:block text-3xl text-center mt-2 text-slate-500 dark:text-slate-400"
+              class="hidden sm:block text-xl text-center mt-2 text-slate-500 dark:text-slate-400"
             >
-              $$$
-            </p>
-            <p
-              class="sm:hidden text-2xl text-center mt-2 text-slate-500 dark:text-slate-400"
-            >
-              Luxury Starship
+              유관순 기념관
             </p>
           </li>
         </ul>
@@ -182,7 +230,7 @@
         <h2
           class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white"
         >
-          Testimonials
+          격려사
         </h2>
         <figure class="my-12">
           <blockquote
@@ -191,15 +239,13 @@
             <p
               class="text-2xl sm:text-3xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-2"
             >
-              Acme has always been there for me. Their Explorer rocket arrived
-              in a wooden crate as expected. Life-long customer! A++ shopping
-              experience.
+              대표 격려사 ...
             </p>
           </blockquote>
           <figcaption
             class="italic text-xl sm:text-2xl text-right mt-2 text-slate-500 dark:text-slate-400"
           >
-            &#8212;Wile E. Coyote, Genius
+            &#8212;장철우 목사님
           </figcaption>
         </figure>
 
@@ -210,18 +256,13 @@
             <p
               class="text-2xl sm:text-3xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-2"
             >
-              The Acme Adventurer Rocket has thwarted my Illudium Q-36 Explosive
-              Space Modulator on several occasions.
-              <span class="italic">This makes me very, very angry!</span>
-              Nevertheless, K-9 and I have awarded Acme the Martian contract for
-              space exploration rockets based on Acme's quality and sturdy
-              designs.
+              격려사 2 ...
             </p>
           </blockquote>
           <figcaption
             class="italic text-xl sm:text-2xl text-right mt-2 text-slate-500 dark:text-slate-400"
           >
-            &#8212;Marvin The Martian &amp; K-9
+            &#8212;김평겸 장로님
           </figcaption>
         </figure>
 
@@ -232,17 +273,13 @@
             <p
               class="text-2xl sm:text-3xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-2"
             >
-              I know I not only wanted &#8212;
-              <span class="italic">I needed</span> &#8212; Acme's Infinity
-              Rocket for my mission in space. Acme delivered in one day! Nothing
-              says <q class="italic">Take me to your leader</q> like Acme's
-              Infinity Rocket! 💯
+              격려사 3 ... 💯
             </p>
           </blockquote>
           <figcaption
             class="italic text-xl sm:text-2xl text-right mt-2 text-slate-500 dark:text-slate-400"
           >
-            &#8212;Buzz Lightyear
+            &#8212;필라델피아 지부장님
           </figcaption>
         </figure>
       </section>
@@ -256,7 +293,7 @@
         <h2
           class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white"
         >
-          Contact Us
+          참가신청
         </h2>
         <form
           action=""
@@ -314,7 +351,7 @@
           <a href="#contact" class="hover:opacity-90">Contact Us</a>
         </nav>
 
-        <div class="flex flex-col sm:gap-2">
+        <div class="flex flex-col sm:gap-2 border">
           <p class="text-right">Copyright &copy; <span id="year">2024</span></p>
           <p class="text-right">All Rights Reserved</p>
         </div>
