@@ -969,6 +969,10 @@ video {
   line-height: 1rem;
 }
 
+.text-\[10px\] {
+  font-size: 10px;
+}
+
 .italic {
   font-style: italic;
 }
