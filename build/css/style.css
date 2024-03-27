@@ -627,6 +627,10 @@ video {
   margin-top: 1.5rem;
 }
 
+.-mt-6 {
+  margin-top: -1.5rem;
+}
+
 .inline {
   display: inline;
 }
@@ -899,6 +903,11 @@ video {
   padding-bottom: 1rem;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -952,6 +961,11 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-sm {
@@ -1012,6 +1026,10 @@ video {
 
 .duration-500 {
   transition-duration: 500ms;
+}
+
+.section-min-height {
+  min-height: calc(100vh - 68px);
 }
 
 .toggle-btn>div::after {
@@ -1312,13 +1330,13 @@ video {
   }
 }
 
-@media (min-aspect-ration: 3/2) {
+@media (min-aspect-ratio: 3/2) {
   .widescreen\:section-min-height {
     min-height: calc(100vh - 68px);
   }
 }
 
-@media (max-aspect-ration: 13/20) {
+@media (max-aspect-ratio: 13/20) {
   .tallscreen\:section-min-height {
     min-height: calc(100vh - 68px);
   }
