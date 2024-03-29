@@ -10,6 +10,7 @@ module.exports = {
           DEFAULT: "#ffefd5",
           dark: "#fee5bc",
         },
+        yka: '#097dbf',
       },
       screens: {
         widescreen: { raw: "(min-aspect-ratio: 3/2)" },
